@@ -1,0 +1,22 @@
+{
+    "website" : {
+      "support": "",
+      "domain": "https://ThoConMuzik.luongquochai.repl.co"
+    },
+    "config": {
+        "http": {
+          "port": 8000
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "https://ThoConMuzik.luongquochai.repl.co/callback",
+        "clientID": "898578064697597993"
+    }
+  }
